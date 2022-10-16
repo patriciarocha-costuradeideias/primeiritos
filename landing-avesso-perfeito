@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O Curso de Costura Avesso Perfeito agora se chama Ateliê Fio Criativo. Venha conhecer nosso trabalho, se encantar e se divertir com a arte da costura">
+
+    <title>Avesso Perfeito ♡ Fio Criativo</title>
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+    <main>
+        <header> 
+
+        </header>
+        <body>
+        <div class="container">
+        
+        <img class="displayed" src="images/logo_2.svg" alt="Logotipo de coração feito com costura">
+        <img class="displayed" src="images/logo-fio-criativo.png" alt="Logotipo de agulha e linha de costura">
+
+        <p>Olá! Se você chegou aqui procurando o Curso de Costura Avesso Perfeito, então está no lugar certo!<br> <br>Porque eu, <a href="https://www.linkedin.com/in/patrícia-rocha-palavras-customizadas" target="_blank"> Patrícia Rocha</a>, fundadora do nosso amado ateliê, passei as agulhas e linhas para as queridas <strong>Bruna Falcão</strong> e <strong>Mariana Azevedo</strong>.  <br><br>Duas professoras maravilhosas e super-qualificadas do Avesso Perfeito - que agora seguem cheias de fôlego e carinho com o <strong>Ateliê Fio Criativo</strong>.</p>
+            
+<h3>O endereço é o mesmo:</h3> 
+<p><strong>Scuola di Cultura</strong><br>
+Avenida Presidente Roosevelt, 1063<br> 
+São Francisco . Niterói, RJ</p>
+<p>Veja nossa <a href="https://goo.gl/maps/RJqQusZeN1ie2bcH8" target="_blank">localização</a></p>
+
+<p><strong>As aulas acontecem:</strong></p>
+<ul>
+<li> 1 vez por semana</li> 
+<li> das 8:30 às 11:30</li>
+<li> das 14 horas às 17 horas</li>
+</ul>
+<p>Ideal para quem nunca costurou, quer começar a costurar ou precisa aprimorar!
+Artesanato, bolsas e roupas - modelagem, corte e costura.</p>
+
+<p>Para agendar um horário para conhecer ou marcar o seu início, contate <br>a gente enviando uma mensagem <a href="https://wa.me/5521987846532" target="_blank">para este contato</a> ou <a href="https://wa.me/5521974056966" target="_blank">para este outro.</a></p>
+<br>
+</div>
+<div class="social">
+<p>Siga a gente nas redes sociais <br><br>
+<a href=""><img src="images/logo_fb.svg"></a> <a href="https://www.instagram.com/cursodecostura.fiocriativo/" target="_blank"><img src="images/logo_insta.svg"></a></p>
+<br><br><br>
+</div>
+</body>
+<footer>
+    <div class="blocktext">
+    <br>
+    <br>
+    Avesso Perfeito é uma marca registrada por Patrícia Rocha.<br>
+    Agora eu costuro ideias na forma de conteúdo, design e tecnologia.<br>
+    Veja aqui o que eu tenho feito de bom. <br>
+    <br>
+    <br>
+</div>
+</footer>
+</main>
+</html>
