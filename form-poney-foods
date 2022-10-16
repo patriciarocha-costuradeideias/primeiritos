@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pôney Foods! Faça parte da nossa comunidade e receba informações e notícias quentinhas e crocantes sobre a empresa que faz as comidas mais gostosas do planeta!">
+    <title>Assine aqui ♡ Poney Foods</title>
+    
+       <link href="styles.css" rel="stylesheet"> 
+
+</head>
+<body class="container">
+    <header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cardápio</a>
+        <a href="#">Sobre nós</a>
+        <a href="#">Blog</a>
+    </nav>
+    </header>
+    <main>
+        <h1>Faça parte da nossa comunidade e receba notícias crocantes da Poney Foods</h1>
+      <!-- Início do formulário -->
+      <section>
+        <h2>Informações de Contato</h2>
+        <form method=post action="/cgi-bin/example.cgi">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required placeholder="Seu nome">
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required placeholder="Sobrenome">
+            </div>
+            
+            <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="text" name="sobrenome" id="email" required placeholder="E-mail">   
+            </div>
+        </form>
+            </section>
+        
+            <h2>Informações de Entregas</h2>
+            <section>
+            <fieldset class="      ">
+            <div class="campo">
+            <label for="endereço"><strong>Endereço</strong></label>
+            <input type="text" name="endereço" id="adress1" required placeholder="Rua">   
+            <div class="campo">
+            <label for="número"><strong>Número</strong></label>
+            <input type="text" name="número" id="adress2" required placeholder="Número">   
+            <div class="campo">
+            <label for="cidade"><strong>Cidade</strong></label>
+            <input type="text" name="cidade" id="adress3" required placeholder="Cidade"> 
+            <div class="cep">
+            <label for="cep"><strong>Cep</strong></label>
+            <input type="text" name="cep" id="adress4" required placeholder="Ex: 24.460-000">   
+            </div>
+            <br>
+            <div class="campo">
+            <label for="estado"><strong>Estado</strong></label>
+            <select>
+                <option selected disabled value="">Escolha estado</option>
+                <option>Alegria</option>
+                <option>Plenitude</option>
+                <option>Paz do Deus</option>
+                <option>TPM</option>
+                <option>Nem sei</option>
+            </select>   
+            </div>
+            </fieldset>
+            </section>
+
+            <h2>Preferências de Comidinhas</h2>
+            <section>
+                <fieldset class="grupo">
+                    <div id="check">
+                        <label><strong>Escolha o que te faz bem e o que te faz feliz:</strong></label>
+                        <input type="checkbox" id="comidinha1" name="comidinha1" value="Lanches">
+                        <label for="comidinha1">Lanches</label>
+                        <input type="checkbox" id="comidinha2" name="comidinha2" value="Smothies">
+                        <label for="comidinha2">Smothies</label>
+                        <input type="checkbox" id="comidinha3" name="comidinha3" value="Risoto de Cogu">
+                        <label for="comidinha3">Risoto de Cogu</label>
+                        <input type="checkbox" id="comidinha4" name="comidinha4" value="Talharim ao molho branco">
+                        <label for="comidinha4">Talharim ao molho branco</label>
+                        <input type="checkbox" id="comidinha5" name="comidinha5" value="Batata frita">
+                        <label for="comidinha5">Batata frita</label>
+                        <input type="checkbox" id="comidinha6" name="comidinha6" value="Mousse de maracujá">
+                        <label for="comidinha6">Mousse de maracujá</label>
+                        <input type="checkbox" id="comidinha7" name="comidinha7" value="Cappuccino">
+                        <label for="comidinha7">Cappuccino</label>
+                    </div>
+                </fieldset>
+            
+                <div> 
+                    <h2>Recados do coração</h2>
+
+                    <form action="">
+                      <p><label for="textao">Na Pôney Foods você é mais feliz!</label></p>
+                      <textarea id="textao" name="textao" rows="4" cols="50"> Deixe aqui a sua história feliz sobre comidinhas compartilhadas com quem você ama.</textarea>
+                      <br>
+                      <input type="submit" value="Enviar">
+                    </form>
+                    <p>Clique em "Enviar" e receba de brinde inteiramente grátis um miojo sabor tomate orgânico sem glutamato monossódico.</p>
+                </div>
+            
+            </section>
+    </main>
+
+    <footer>
+        <p>Pôney Foods é uma marca inspirada no podcast <a href="https://naoinviabilize.com.br/picole-de-limao/" target="_blank">Picolé de Limão | Não Inviabilize</a></p>
+        <p>Essa landing page com formulário é um livre exercício de<a href="https://patriciarocha.art.br/" target="_blank">Patrícia Rocha</a></p>
+    </footer>
+</body>
+</html>
